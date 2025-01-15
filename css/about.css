@@ -88,7 +88,7 @@
 
 .team__member-image img {
     filter: saturate(0);
-    border-radius: 20%; /* Make it circular */
+    border-radius: 50%; /* Make it circular */
     overflow: hidden; /* Ensure no content overflows the circle */
     border: 1px solid #4e3cee; /* Optional: Add a border */
 }
