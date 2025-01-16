@@ -143,6 +143,21 @@ nav button {
     color: var(--color-bg2);
 }
 
+.nav__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav__logo img {
+    height: 50px; /* Keep the logo height around 50px */
+    width: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add spacing between the logo and text */
+    border-radius: 35%;
+    border: 2px black solid;
+}
+
+
 /*header*/
 header {
     position: relative;
